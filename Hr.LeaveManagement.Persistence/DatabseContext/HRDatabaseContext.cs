@@ -24,7 +24,7 @@ namespace Hr.LeaveManagement.Persistence.DatabseContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(HRDatabaseContext).Assembly);
-            modelBuilder.ApplyConfiguration(new LeaveTypeConfiguration());
+            //modelBuilder.ApplyConfiguration(new LeaveTypeConfiguration());
             
             base.OnModelCreating(modelBuilder);
         }
